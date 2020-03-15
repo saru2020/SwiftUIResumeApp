@@ -1,0 +1,92 @@
+{
+    "header": {
+        "name": "Blah Name",
+        "designation": "Blah designation",
+        "role": "Blah role",
+        "domains": "AI, ML, AR, VR, Mobile, Backend",
+        "phone": "+91-1234567890",
+        "email": "blah@blah.com",
+        "blog": "blahblog.com",
+        "github": "github.com/blah"
+    },
+    "aboutMyself": {
+        "title": "About Blah",
+        "description": "Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah \n\nBlah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah \n\nBlah, Blah, Blah, Blah, Blah, Blah, Blah, Blah."
+    },
+    "companies": {
+        "companies": [{
+            "id": "Company 1",
+            "role": "Blah Role",
+            "name": "Company 1",
+            "location": "location",
+            "duration": "March 2117 - Present",
+            "projects": [{
+                "id": "1",
+                "title": "Project 1",
+                "link": "Project1.com",
+                "description": "Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah",
+                "responsibility": "Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah"
+            }, {
+                "id": "2",
+                "title": "Project 2",
+                "link": "Project2.com",
+                "description": "Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah",
+                "responsibility": "Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah"
+            }]
+        }, {
+            "id": "Company 2",
+            "role": "Blah Role",
+            "name": "Company 2",
+            "location": "location",
+            "duration": "December 2114 - March 2117",
+            "projects": [{
+                "id": "1",
+                "title": "Project 1",
+                "link": "Project1.com",
+                "description": "Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah",
+                "responsibility": "Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah"
+            }, {
+                "id": "2",
+                "title": "Project 2",
+                "link": "Project2.com",
+                "description": "Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah",
+                "responsibility": "Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah, Blah"
+            }]
+        }]
+    },
+    "education": {
+        "college": {
+            "name": "Blah College",
+            "location": "Meh, Blah University",
+            "duration": "2106-2110",
+            "score": "70%",
+            "degree": "B.E (CSE)"
+        },
+        "school": {
+            "name": "Blah Mat Hr Sec School",
+            "location": "Meh",
+            "duration": "2106",
+            "score": "80%",
+            "degree": "12th Grade"
+        }
+    },
+    "skills": {
+        "skills": [{
+                "id": 1,
+                "skill": "Swift, Objective C, iOS",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "skill": "Cross-Platform: \nReact Native, Ionic, Flutter",
+                "rating": 4
+            },
+            {
+                "id": 3,
+                "skill": "Backend: \nNodeJs, MongDB",
+                "rating": 3
+            }
+        ]
+    }
+}
+
