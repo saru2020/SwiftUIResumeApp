@@ -13,7 +13,7 @@ All the images used in the resume app are fonts and hence their colours are also
 
 
 ### Feed Content:
-Modify the <i>‘sample_data.json’</i> file to display your resume
+Modify the <i>‘sample_data.json’</i> file to display your own resume data
 
 Completely written with SwiftUI which means the UI of the app should dynamically align based upon the contents fed to it.
 
