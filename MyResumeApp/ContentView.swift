@@ -110,15 +110,13 @@ struct DividerView: View {
     let dataType: DataType
     var body: some View {
         VStack(alignment: .center, spacing: 0) {
-            Text("")
+            Rectangle().fill(ThemeColor)
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)//This makes sure to occupy the remaining area of the superview
                 .frame(width: dataType.topLabelWidth(), height: dataType.topLabelHeight())
-                .background(ThemeColor)
             ImageIconView(dataType: dataType)
-            Text("")
+            Rectangle().fill(ThemeColor)
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)//This makes sure to occupy the remaining area of the superview
                 .frame(width: 2)
-                .background(ThemeColor)
         }
     }
 }
@@ -129,8 +127,7 @@ struct CompanyView: View {
     var body: some View {
         HStack(alignment: .top) {
             DividerView(dataType: .Company)
-            .frame(maxHeight: .infinity)//This makes sure to occupy the remaining area of the superview
-
+            
             VStack(alignment: .leading) {
                 CompanyHeaderView(data: data)
 //                    .frame(height: 50)//DONT set here since it is set within the subview
@@ -203,6 +200,7 @@ struct ResumeView: View {
     
     var body: some View {
 //        List() {
+        ScrollView {
         VStack(alignment: .leading) {
             HeaderView(data: data)
             AboutMyselfView(data: data.aboutMyself)
@@ -214,7 +212,8 @@ struct ResumeView: View {
             EducationSkillsView(education: data.education, skills: data.skills)
 //                .listRowInsets(EdgeInsets(top: 0, leading: padding, bottom: 0, trailing: padding))
         }
-        .padding()
+        .padding().layoutPriority(-1)
+        }
 //        .listRowInsets(EdgeInsets(top: 0, leading: padding, bottom: 0, trailing: padding))
 //        .listRowInsets(EdgeInsets())
 //        .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: -20, trailing: 0))
