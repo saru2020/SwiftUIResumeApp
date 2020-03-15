@@ -4,7 +4,7 @@ A Resume app for iPad created during the learning process of SwiftUI
 # Inspiration:
 The app is totally based off of [this](https://koenig-media.raywenderlich.com/downloads/Resume_RendonCepeda.pdf) Resume template, a bit altered though.
 
-# Features of the app:
+# About the app:
 ### Theming:
 The theme of the resume is totally customisable. [Modify the values in <i>‘Configuration.swift’</i> file]
 
