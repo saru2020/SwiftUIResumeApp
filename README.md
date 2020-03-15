@@ -17,7 +17,7 @@ Modify the <i>‘sample_data.json’</i> file to display your resume
 
 Completely written with SwiftUI which means the UI of the app should dynamically align based upon the contents fed to it.
 
-Note: There are some [pending issues](https://github.com/saru2020/ResumeAppWithSwiftUI/issues) for which I’m still trying to find a fix. 
+Note: There are some [pending issues](https://github.com/saru2020/SwiftUIResumeApp/issues) for which I’m still trying to find a fix. 
 PRs are very much welcome :)
 
 ## Sample iPad Screenshot:
